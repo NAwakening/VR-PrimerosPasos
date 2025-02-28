@@ -1047,6 +1047,7 @@ MonoBehaviour:
     RefIds:
     - rid: 4414834509629095938
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
+      data: 
 --- !u!114 &280166350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3925,7 +3926,7 @@ MonoBehaviour:
     IKTarget: {fileID: 172203742}
     positionOffset: {x: 0.05, y: -0.04, z: -0.1}
     rotationOffset: {x: 8.3, y: -90, z: -96.3}
-  headOffset: {x: 0, y: -0.12, z: 0}
+  headOffset: {x: 0, y: -0.6, z: 0}
   bodyOffset: 0
 --- !u!4 &331699446 stripped
 Transform:
@@ -5763,6 +5764,7 @@ MonoBehaviour:
     RefIds:
     - rid: 4414834509629095939
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
+      data: 
 --- !u!114 &850575728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6918,14 +6920,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 889233530}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af6bf904e410ee8479f9093d8830d1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_LocomotionProvider: {fileID: 0}
-  m_MinHeight: 0
-  m_MaxHeight: Infinity
+  m_MinHeight: 1.7
+  m_MaxHeight: 1.7
 --- !u!143 &889233533
 CharacterController:
   m_ObjectHideFlags: 0
@@ -6937,7 +6939,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.8
+  m_Height: 1.7
   m_Radius: 0.1
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -9669,6 +9671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 8c5079e78d9a78f4f823ea991307f8ac, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1720c98616a0f194dae551fe7645b49b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c5079e78d9a78f4f823ea991307f8ac, type: 3}
 --- !u!4 &1363929298 stripped
