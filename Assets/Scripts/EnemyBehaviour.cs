@@ -7,15 +7,17 @@ public class EnemyBehaviour : MonoBehaviour
 {
     [SerializeField] Transform m_playerTransform;
     [SerializeField] NavMeshAgent m_agent;
+    [SerializeField] float m_speed;
 
     private void Start()
     {
-        
+        m_agent.speed = m_speed;
     }
 
     void Update()
     {
-        m_agent.Move(m_playerTransform.position);
+        m_agent.SetDestination(m_playerTransform.position);
+        
     }
 
     private void OnCollisionEnter(Collision collision)
